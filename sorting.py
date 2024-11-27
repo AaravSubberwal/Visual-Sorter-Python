@@ -5,7 +5,7 @@ Date: 27/11/2024
 A visual sorter for all the sorts in python.
 
 I've only done this in vscode terminal and I've set up the required workspace settings already in settings.json. Can't gaurantee if it'll work on other  
-IDE's.
+IDE's. Run the file in dedicated terminal and maximize it's size.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import random
 import time
