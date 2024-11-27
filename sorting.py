@@ -1,3 +1,12 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Author: Aarav Subberwal
+Date: 27/11/2024
+
+A visual sorter for all the sorts in python.
+
+I've only done this in vscode terminal and I've set up the required workspace settings already in settings.json. Can't gaurantee if it'll work on other  
+IDE's.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import random
 import time
 import os
@@ -143,11 +152,11 @@ class Sorts:
 
 
 if __name__ == "__main__":
-    t=0.004
+    t=0.004  #4ms delay
     program = Control()
     sorter = Sorts(program)
 
-    arr = list(range(1, 53))
+    arr = list(range(1, 45))
     random.shuffle(arr)
     sorter.bubble_sort(arr.copy())
     time.sleep(1)
